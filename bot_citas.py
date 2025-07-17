@@ -9,10 +9,10 @@ import hashlib
 app = Flask(__name__)
 
 # Configuración desde variables de entorno
-TELEGRAM_TOKEN = os.getenv("7487783707:AAHBIlyKLWsELyQkk8uI35xWeWaU3EYPeJA")
-CHAT_ID = os.getenv("1022714311")
-URL_INICIAL = os.getenv("https://www.exteriores.gob.es/Consulados/lahabana/es/ServiciosConsulares/Paginas/index.aspx?scca=Notar%C3%ADa&scco=Cuba&scd=166&scs=Otras+escrituras")
-URL_CITAS = os.getenv("https://www.citaconsular.es/es/hosteds/widgetdefault/2f21cd9c0d8aa26725bf8930e4691d645/bkt177496")
+TELEGRAM_TOKEN = os.getenv("none")
+CHAT_ID = os.getenv("none")
+URL_INICIAL = os.getenv("link")
+URL_CITAS = os.getenv("link")
 CHECK_INTERVAL = 60
 ERROR_INTERVAL = 300
 
